@@ -1,8 +1,6 @@
 $(document).ready(function() {
 
-    $("#username").click(function() {
-        submitUsername();
-    });
+    $("#username").click(submitUsername);
 
 });
 
