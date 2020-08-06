@@ -10,7 +10,7 @@ $(document).ready(function() {
 
         // perform an ajax http get request
         $.ajax({
-            url: '',
+            url: 'https://killergameac.herokuapp.com/api/player',
             type: 'POST',
             data: JSON.stringify({
                 "userName":$('#username').val(),
