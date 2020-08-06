@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $("#username").click(submitUsername);
+    $("#userbutton").click(submitUsername);
 
 });
 
@@ -13,7 +13,7 @@ $(document).ready(function() {
             url: 'https://killergameac.herokuapp.com/api/player',
             type: 'POST',
             data: JSON.stringify({
-                "userName":$('#username').val(),
+                "username":$('#username').val(),
             }),
             async: true,
             contentType: 'application/json',
