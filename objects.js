@@ -67,6 +67,10 @@ $(document).ready(function() {
         objectInitializer("pillow");
     });
 
+    $("#rope").click(function() {
+        objectInitializer("rope");
+    });
+
     $("#scissors").click(function() {
         objectInitializer("scissors");
     });
