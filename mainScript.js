@@ -30,6 +30,8 @@ function startGame(){
         success: goToGame,
         error: errorNoBlackList
     });
+
+    
 }
 
 function userJoinGame(){
