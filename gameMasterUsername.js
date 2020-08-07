@@ -1,4 +1,4 @@
-var playerService =
+var playerUsername;
 
 $(document).ready(function() {
 
@@ -22,7 +22,7 @@ $(document).ready(function() {
         }),
         async: true,
         contentType: 'application/json',
-        success: test,
+        success: test($('#username').val()),
         error: errorCallback
 
     });
@@ -32,7 +32,11 @@ function errorCallback(){
     console.log("ERRRROOORRR!!");
 }
 
-function test(){
-    console.log("success!!")
+function test(username){
+    playerUsername = username;
+    var row = username;
+
+    $(".h1").append(row);
+    console.log("success!!");
 }
 
