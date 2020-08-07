@@ -136,3 +136,13 @@ body
   justify-content: center;
   
 }
+
+.btn-containers {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  font-family: 'Fredericka the Great', cursive;
+  justify-content: center;
+  visibility: hidden;
+}
