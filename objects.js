@@ -45,7 +45,7 @@ function objectInitializer(str){
 
     console.log("I am here!"+str);
     objectArray.push(str);
-    var row = '<tr><td>'+str+'</td></tr>';
+    var row = '<td>'+str+'</td>';
 
     $(".objNames").append(row);
 
