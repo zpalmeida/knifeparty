@@ -113,7 +113,7 @@ function objectInitializer(str){
 
     console.log("I am here!"+str);
     objectArray.push(str);
-    var row = '<td>'+str+' ,</td> ';
+    var row = '<td>'+str+', </td> ';
 
     $(".objNames").append(row);
 
