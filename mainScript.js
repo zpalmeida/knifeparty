@@ -75,11 +75,12 @@ function goToGame(response){
     console.log("Success. Blacklist have arrived");
 
     var row = '<tr><td>' + 
-                response.weapon + '</td><td>' + 
-                response.crimeScene + '</td><td>' + 
-                response.victim + '</td></tr>';
+                'PAAAAULLOOOO' + '</td><td>' + 
+                'LEEEEONOOORRR' + '</td><td>' + 
+                'ZEPEDROOOOOO' + '</td></tr>';
 
     $(row).appendTo('#blacklist-table');
+    console.log("resPONSE:"+response.victim+"response2"+response.crimeScene);
 
 }
 

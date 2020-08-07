@@ -277,13 +277,13 @@ h2 span:nth-child(18) {
   }
 }
 
-.btn span:nth-child(2){
-top: -100%;
-left: 0%;
-width: 2px;
-height: 100%;
-animation: btn-anim2 1s linear infinite;
-animation-delay: .25s;
+.btn span:nth-child(2) {
+  top: -100%;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s;
 }
 
 @keyframes btn-anim2 {
@@ -296,12 +296,12 @@ animation-delay: .25s;
 }
 
 .btn span:nth-child(3){
-bottom: 0;
-right: -100%;
-width: 100%;
-height: 2px;
-animation: btn-anim3 1s linear infinite;
-animation-delay: .5s;
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s;
 }
 
 @keyframes btn-anim3 {
@@ -313,12 +313,12 @@ animation-delay: .5s;
   }
 }
 .btn span:nth-child(4){
-bottom: -100%;
-left: 0%;
-width: 2px;
-height: 100%;
-animation: btn-anim4 1s linear infinite;
-animation-delay: .75s;
+  bottom: -100%;
+  left: 0%;
+  width: 2px;
+  height: 100%;
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s;
 }
 
 @keyframes btn-anim4 {
