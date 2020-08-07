@@ -22,7 +22,7 @@ $(document).ready(function() {
         }),
         async: true,
         contentType: 'application/json',
-        success: test($('#username').val()),
+        success: test,
         error: errorCallback
 
     });
@@ -32,11 +32,7 @@ function errorCallback(){
     console.log("ERRRROOORRR!!");
 }
 
-function test(username){
-    playerUsername = username;
-    var row = username;
-
-    $("#myh1").append(row);
+function test(){
     console.log("SUUUUUUUCCCCCCEEEESSSSSSSSSSS!!");
 }
 
