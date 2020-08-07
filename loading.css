@@ -10,15 +10,15 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 10vh;
   background: #000;
 }
 
 .loader
 {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
