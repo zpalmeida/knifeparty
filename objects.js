@@ -4,7 +4,7 @@ var crimeSceneArray = [];
 $(document).ready(function() {
 
     $("#whippedcream").click(function() {
-        objectInitializer("whippedcream");
+        objectInitializer("whippingcream");
     });
 
     $("#waterglass").click(function() {
@@ -39,12 +39,11 @@ $(document).ready(function() {
         objectInitializer("tvremote");
     });
 
-
- 
-
 });
 
 function objectInitializer(str){
+
+    console.log("I am here!"+str);
     objectArray.push(str);
     var row = '<tr><td>'+str+'</td></tr>';
 
