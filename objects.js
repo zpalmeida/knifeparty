@@ -45,7 +45,11 @@ $(document).ready(function() {
 });
 
 function objectInitializer(str){
-    objectArray.pop(str);
+    objectArray.push(str);
+    var row = '<tr><td>'+str+'</td></tr>';
+
+    $(row).appendTo('#grid-container');
+
 }
 
  
