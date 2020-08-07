@@ -30,8 +30,6 @@ function startGame(){
         success: goToGame,
         error: errorNoBlackList
     });
-
-    
 }
 
 function userJoinGame(){
@@ -43,8 +41,7 @@ function userJoinGame(){
         url: 'https://killergameac.herokuapp.com/api/player',
         type: 'POST',
         data: JSON.stringify({
-            "username":$('#username').val(),
-            "partynumber":$('#partynumber').val()
+            "username":$('#username').val()
         }),
         async: true,
         contentType: 'application/json',
