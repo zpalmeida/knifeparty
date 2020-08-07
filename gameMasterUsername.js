@@ -15,7 +15,7 @@ $(document).ready(function() {
 
     // perform an ajax http get request
     $.ajax({
-        url: 'https://killergameac.herokuapp.com/api/player',
+        url: 'https://killergameac.herokuapp.com/api/player22',
         type: 'POST',
         data: JSON.stringify({
             "username":$('#username').val(),
