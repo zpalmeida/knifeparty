@@ -47,7 +47,7 @@ function objectInitializer(str){
     objectArray.push(str);
     var row = '<tr><td>'+str+'</td></tr>';
 
-    $(".grid-container").append(row);
+    $(".objNames").append(row);
 
 }
 
