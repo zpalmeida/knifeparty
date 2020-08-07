@@ -369,3 +369,9 @@ animation-delay: .75s;
   }
 }
 
+.objNames {
+  display: flex;
+  font-family: 'Fredericka the Great', cursive;
+  color: brown;
+}
+
