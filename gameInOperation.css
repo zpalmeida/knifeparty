@@ -75,7 +75,7 @@ h2{
   position: relative;
   color: #111;
   font-size: 900;
-
+  font-family: 'Fredericka the Great', cursive;
 }
 h2 span{
   dipslay: table-cell;
@@ -159,7 +159,7 @@ h2 span:nth-child(18) {
 .btn-container {
   display: flex;
   align-items: center;
-  min-height: 100vh;
+  min-height: 10vh;
   justify-content: center;
   font-family: 'Fredericka the Great', cursive;
   justify-content: center;
@@ -178,6 +178,7 @@ h2 span:nth-child(18) {
   overflow: hidden;
   transition: .5s;
   letter-spacing: 4px;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 .btn:hover{
@@ -321,6 +322,12 @@ width: 2px;
 height: 100%;
 animation: btn-anim4 1s linear infinite;
 animation-delay: .75s;
+}
+
+.buttons{
+  align-items: center;
+  justify-content: center;
+  font-family: 'Fredericka the Great', cursive;
 }
 
 /*

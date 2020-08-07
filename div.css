@@ -119,6 +119,7 @@ h2{
   position: relative;
   color: #111;
   font-size: 900;
+  font-family: 'Fredericka the Great', cursive;
 
 }
 h2 span{
@@ -126,6 +127,7 @@ h2 span{
   margin: 0;
   padding: 0;
   animation: animate 2s linear infinite;
+
 }
 h2 span:nth-child(1) {
   animation-delay: 0s;

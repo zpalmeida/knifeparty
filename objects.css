@@ -37,7 +37,7 @@ body
 .btn-container {
   display: flex;
   align-items: center;
-  min-height: 100vh;
+  min-height: 10vh;
   justify-content: center;
   font-family: 'Fredericka the Great', cursive;
   justify-content: center;
@@ -117,9 +117,9 @@ h2{
   margin: 0;
   padding: 0;
   position: relative;
-  color: #111;
+  color: darkred;
   font-size: 900;
-
+  font-family: 'Fredericka the Great', cursive;
 }
 h2 span{
   dipslay: table-cell;
