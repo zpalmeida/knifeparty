@@ -4,107 +4,107 @@ var crimeSceneArray = [];
 $(document).ready(function() {
 
     $("#axe").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("axe");
     });
 
     $("#ball").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("ball");
     });
 
     $("#banana").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("banana");
     });
 
     $("#belt").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("belt");
     });
 
     $("#bike").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("bike");
     });
 
     $("#gamecontroller").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("game controller");
     });
 
     $("#ice").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("ice cube");
     });
 
     $("#key").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("keys");
     });
 
     $("#knife").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("knife");
     });
 
     $("#lamp").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("lamp");
     });
 
     $("#lighter").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("lighter");
     });
 
     $("#lipstick").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("lipstick");
     });
 
     $("#liquor").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("liquor");
     });
 
     $("#nail").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("nail");
     });
 
     $("#pen").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("pen");
     });
 
     $("#pillow").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("pillow");
     });
 
     $("#scissors").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("scissors");
     });
 
     $("#skate").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("skate");
     });
 
     $("#soap").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("soap");
     });
 
     $("#strawberry").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("strawberry");
     });
 
     $("#sweet").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("sweets");
     });
 
     $("#tissues").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("tissues");
     });
 
     $("#tvremote").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("tv remote");
     });
 
     $("#vase").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("vase");
     });
 
     $("#waterglass").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("water glass");
     });
 
     $("#whippedcream").click(function() {
-        objectInitializer("whippingcream");
+        objectInitializer("whipping cream");
     });
 
 });
@@ -113,7 +113,7 @@ function objectInitializer(str){
 
     console.log("I am here!"+str);
     objectArray.push(str);
-    var row = '<td>'+str+'</td> ';
+    var row = '<td>'+str+' ,</td> ';
 
     $(".objNames").append(row);
 
