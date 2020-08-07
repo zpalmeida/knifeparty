@@ -36,7 +36,7 @@ function test(username){
     playerUsername = username;
     var row = username;
 
-    $(".h1").append(row);
+    $("#myh1").append(row);
     console.log("success!!");
 }
 
