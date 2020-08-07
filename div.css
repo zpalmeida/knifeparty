@@ -37,7 +37,7 @@ body
 .btn-container {
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 10vh;
     justify-content: center;
     font-family: 'Fredericka the Great', cursive;
     justify-content: center;
